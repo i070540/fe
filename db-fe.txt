@@ -1,0 +1,64 @@
+﻿/* 0 */
+{
+    "name" : "新闻资讯",
+    "subCatas" : [ 
+        {
+            "name" : "新浪",
+            "value" : "http://www.sina.com.cn"
+        }, 
+        {
+            "name" : "搜狐",
+            "value" : "http://www.sohu.com"
+        }, 
+        {
+            "name" : "腾讯",
+            "value" : "http://www.qq.com"
+        }, 
+        {
+            "name" : "凤凰网",
+            "value" : "http://www.ifeng.com"
+        }
+    ]
+}
+
+/* 1 */
+{
+    "name" : "视频",
+    "subCatas" : [ 
+        {
+            "name" : "优酷",
+            "value" : "http://www.youku.com"
+        }, 
+        {
+            "name" : "搜狐视频",
+            "value" : "http://tv.sohu.com/"
+        }, 
+        {
+            "name" : "奇艺",
+            "value" : "http://www.qiyi.com"
+        }
+    ]
+}
+
+/* 2 */
+{
+    "name" : "搜索引擎",
+    "subCatas" : [ 
+        {
+            "name" : "百度",
+            "value" : "http://www.baidu.com"
+        }, 
+        {
+            "name" : "360",
+            "value" : "http://www.so.com"
+        }, 
+        {
+            "name" : "搜搜",
+            "value" : "http://www.soso.com"
+        }, 
+        {
+            "name" : "搜狗",
+            "value" : "http://www.sogou.com"
+        }
+    ]
+}

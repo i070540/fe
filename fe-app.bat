@@ -1,1 +1,1 @@
-supervisor c:\projects\fe\app
+supervisor c:\projects\github\fe\app
