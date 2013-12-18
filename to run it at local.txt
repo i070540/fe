@@ -1,0 +1,8 @@
+1. 安装nodejs  （http://nodejs.org/）
+2. 安装 mongodb 很简单，去官网（http://www.mongodb.org/downloads）下载最新版的 mongodb，解压到任意磁盘并把文件夹重命名为 mongodb，并在 mongodb 文件夹里新建db/fe 文件夹作为我们存储目录。
+3. 设置环境变量path，加上      ;【your disk】:\mongodb\bin
+4.安装mongodb客户端Robomongo
+5.按照你的安装路径修改文件fe-database.bat,双击启动之。
+6.打开Robomongo，点击链接local server，创建数据库fe> 创建collection catalogs> 按照db-fe.txt的形式录入一些document 记录，保存退出。
+7.按照你代码的位置修改文件fe-app.bat,双击启动之。
+8.打开浏览器，输入localhost：3000
