@@ -1,0 +1,21 @@
+.content{
+	height:950px;
+}
+
+.container{
+	width:1520px;
+}
+
+.rightContainer{
+	height:100%; 
+}
+
+.rightContainer iframe{
+	width: 100%;
+	height:100%; 
+}
+
+.naviBar{
+	margin-bottom: 5px;
+}
+

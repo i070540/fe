@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fasteagle</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/lib/jquery-1.10.2.js"></script>
+  <script src="js/lib/underscore-min.js"></script>
+ 
+  <%- include template %> 
+</head>
+<body>
+	<div class="container">
+
+      <div class="masthead">
+        <h3 class="text-muted">Fast eagle</h3>
+        <div class="naviBar">
+          <ul class="nav nav-justified">
+      
+          </ul>
+        </div>
+      </div>
+      <div class="content row">
+          <div class="leftContainer col-md-1">
+            <ul class="nav nav-pills nav-stacked">
+            </ul> 
+          </div>
+          <div class="rightContainer col-md-11">
+          <!--   <iframe src="" name="contentFrame" id="contentFrame" onload="javascript:iFrameHeight(this);" sandbox="allow-scripts allow-forms allow-same-origin" seamless scrolling="auto"></iframe> -->
+          </div>
+      </div>
+  </div>
+ 
+  <script src="js/lib/backbone-min.js"></script>
+  <script src="js/lib/bootstrap.min.js"></script>
+  <script src="js/namespace.js"></script>
+  <script src="js/service.js"></script>
+  <script src="js/controller.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/views/naviView.js"></script>
+  <script src="js/views/leftNaviView.js"></script>
+  <script src="js/views/contentView.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function($) {
+    var app = new fe.App();
+    window.app = app;
+    app.start();
+  });
+  </script>
+</body>
+</html>
